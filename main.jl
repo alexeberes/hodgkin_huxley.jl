@@ -2,7 +2,7 @@ include("hodgkin_huxley.jl")
 using .HodgkinHuxley
 using OrdinaryDiffEq
 
-hodgkin_huxley(
+solve_hodgkin_huxley(
     method = Rodas4(),
     time_span = (0.0, 500.0),
     current_injected₀ = 0.06,

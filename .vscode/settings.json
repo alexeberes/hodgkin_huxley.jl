@@ -1,0 +1,4 @@
+{
+    "jupyter.askForKernelRestart": false,
+    "python.terminal.activateEnvironment": false
+}
